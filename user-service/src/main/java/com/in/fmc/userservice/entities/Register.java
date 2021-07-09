@@ -24,5 +24,8 @@ public class Register {
 
 	@Column(name = "mobile_no")
 	private Long mobileNo;
+	
+	@Column(name="fk_reg_id")
+	private Login login;
 
 }
